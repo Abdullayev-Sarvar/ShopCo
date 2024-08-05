@@ -1,0 +1,30 @@
+
+.Offer{
+    width: 100%;
+    max-width: 1365px;
+    height: 100%;
+    padding: 0 20px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    background: black;
+    
+    .offer-wrapper{
+        display: flex;
+        align-items: center;
+        padding: 10px 0;
+        color: white;
+        .offer-text{
+            margin-right: 8px;
+        }
+        .sign-up-link{
+            color: white;
+        }
+        .close-btn{
+            margin-left: 30rem;
+            border: none;
+            background: black;
+            cursor: pointer;
+        }
+    }
+}

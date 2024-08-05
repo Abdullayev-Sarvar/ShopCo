@@ -1,0 +1,46 @@
+
+
+.header-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .nav-list{
+        display: flex;
+        align-items: center;
+        gap: 0 20px;
+        .nav-items{
+            font-size: 1rem;
+        }
+    }
+    .input-search{
+        padding: 12px 12rem 12px 12px;
+        background: #F0F0F0;
+        outline: none;
+        border: none;
+        border-radius: 60px;
+    }
+    .nav-icons{
+        display: flex;
+        gap: 0 20px;
+        .nav-btn{
+            border: none;
+            background: transparent;
+            cursor: pointer
+        }
+    }
+}
+
+.nav-link{
+    text-decoration: none;
+    color: #000000;
+    transition: 1s all ease-in-out;
+}
+.nav-link:hover{
+    color: green;
+    transition: 1s all ease-in-out;
+    text-decoration: underline;
+    text-decoration-color: green;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 10px;
+    text-decoration-skip-ink: none;
+}

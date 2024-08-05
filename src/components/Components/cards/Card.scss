@@ -1,0 +1,44 @@
+.Cards-Loading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Card-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Card{
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background: #FFFFFF;
+    .Card-image{
+        width: 100%;
+        max-width: 295px;
+        height: 100%;
+        max-height: 290px;
+        object-fit: cover;
+        background: #F0EEED;
+        border-radius: 10px;
+    }
+    .Card-title{
+        margin-top: 1rem;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 40px;
+        color: #000000;
+    }
+    .Card-rating{
+        display: flex;
+        align-items: center;
+        gap: 12px 16px;
+    }
+    .Card-price{
+        font-size: 24px;
+        font-weight: 700;
+        padding-top: 10px;
+    }
+}

@@ -1,0 +1,111 @@
+
+
+.contact{
+    background: #04364A;
+    .contact-wrapper{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .contact-info{
+            width: 100%;
+            max-width: 600px;
+            display: flex;
+            flex-direction: column;
+        }
+        .contact-title{
+            font-size: 60px;
+            line-height: 78px;
+            .contact-span{
+                color: #17f7ff9a;;
+            }
+        }
+        .contact-info-cont{
+            display: flex;
+            flex-direction: column;
+            gap: 1rem 0;
+            padding: 2.5rem 0;
+            .contact-cont{
+                display: flex;
+                align-items: center;
+                gap: 1rem 2rem;
+                .contact-addres{
+                    color: white;
+                    font-size: 24px;
+                }
+            }
+        }  
+        
+        .send-message{
+            width: 630px;
+            display: flex;
+            flex-direction: column;
+            gap: 1rem 0;
+            padding: 50px 35px;
+            border-radius: 24px;
+            background: #FFFEFE;
+            .contact-buttons{
+                display: flex;
+                flex-direction: column;
+                .contact-text{
+                    color: #176B87;
+                    font-size: 20px;
+                    padding-bottom: 12px;
+                }
+                .btns{
+                    display: flex;
+                    flex-wrap: wrap;
+                    gap: 20px 25px;
+                    padding-bottom: 2rem;
+                }
+            }
+        }
+    }
+}
+
+.contact-btn{
+    font-size: 16px;
+    line-height: 24px;
+    padding: 10px 20px;
+    border-radius: 50px;
+    background: transparent;
+    color: #787878;
+    border: none;
+    border: 1px solid #787878
+}
+
+.contact-btn:focus{
+    color: white;
+    background: #0d5b6b;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    label {
+      color: #176B87;
+    }
+    .form-input {
+      outline: none;
+      border: none;
+      padding: 12px 16px;
+      margin-bottom: 2rem;
+      border-bottom: 2px solid transparent; 
+    }
+    .form-input:focus {
+      border-bottom: 3px solid #176B87; 
+    }
+    #message {
+      border-radius: 12px;
+      border: 2px solid #CDCDCD;
+      outline: none;
+      margin-bottom: 20px;
+    }
+  }
+  
+  .contact-form-btn {
+    padding: 16px 70px;
+    color: white;
+    border-radius: 50px;
+    background: #176B87;
+    border: none;
+  }

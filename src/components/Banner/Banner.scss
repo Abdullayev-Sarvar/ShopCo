@@ -1,0 +1,64 @@
+
+
+.banner{
+    background: #F2F0F1;
+    .banner-wrapper{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 0 20px;
+        .banner-img{
+            width: 100%;
+            max-width: 600px;
+            height: 100%;
+            object-fit: fill;
+        }
+    }
+}
+
+.banner-info{
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem 0;
+    .banner-title{
+        font-size: 64px;
+        font-weight: 900;
+        line-height: 60px;
+        color: #000000;
+    }
+    .banner-text{
+        font-size: 16px;
+        line-height: 22px;
+        color: #00000099;
+    }
+    .banner-btn{
+        max-width: 220px;
+        border: none;
+        border-radius: 4rem;
+        padding: 1rem 0;
+        background: #000000;
+        color: white;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .banner-stats{
+        display: flex;
+        justify-content: space-between;
+        .stats{
+            display: flex;
+            flex-direction: column;
+            .stats-buys{
+                font-size: 40px;
+                font-weight: 700;
+                line-height: 54px;
+                padding-bottom: 12px;
+            }
+            .buy-names{
+                color: #00000099;
+            }
+        }
+    }
+
+}

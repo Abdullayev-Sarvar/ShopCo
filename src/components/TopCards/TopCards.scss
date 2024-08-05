@@ -1,0 +1,24 @@
+
+
+
+.Cards-wrapper{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 4rem;
+    .Cards-btn{
+        margin: 2rem 0;
+        border-radius: 20px;
+        padding: 1rem 5rem;
+        border: none;
+        border: 1px solid #0000001A;
+        background: white;
+    }
+}
+
+.Cards-title{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+    color: #000000;
+}

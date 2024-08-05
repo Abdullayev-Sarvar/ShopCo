@@ -1,0 +1,33 @@
+
+
+.offer__wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 36px 64px;
+    border-radius: 20px;
+    color: white;
+    background: #000000;
+    .offer__text{
+        width: 550px;
+        font-size: 40px;
+    }
+    .offer-input-container{
+        display: flex;
+        flex-direction: column;
+        gap : 10px 0;
+        .offer-input{
+            padding: 10px 70px;
+            border-radius: 12px;
+            border: none;
+            background: white;
+            outline: none;
+        }
+        .offer-btn{
+            padding: 10px 70px;
+            border-radius: 12px;
+            border: none;
+            background: white;
+        }
+    }
+}

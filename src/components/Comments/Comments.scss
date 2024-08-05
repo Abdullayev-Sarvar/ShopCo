@@ -1,0 +1,12 @@
+
+.Comments-wrapper{
+    display: flex;
+    flex-direction: column;
+    padding-top: 4rem;
+    .Comments-title{
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 60px;
+        color: #000000;
+    }
+}

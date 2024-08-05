@@ -1,0 +1,42 @@
+
+
+.footerNav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0;
+    border-bottom: 1px solid #F0F0F0
+}
+
+.footerNav-info__text{
+    font-size: 14px;
+    line-height: 22px;
+    color: black;
+    opacity: 0.6;
+}
+
+.text-padding{
+    padding: 25px 0;
+}
+
+.footerNav-info__icons{
+    display: flex;
+    gap: 0 12px;
+}
+
+.icons-link{
+    border: none;
+    background: transparent;
+    cursor: pointer
+}
+
+.Footer-items{
+    padding-top: 20px;
+    font-size: 16px;
+    color: black;
+    opacity: 0.6;
+}
+
+.footerNav-info{
+    width: 250px;
+}
